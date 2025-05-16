@@ -3,7 +3,7 @@ import { useState } from "react"
 import { Input } from "../Input"
 import { ButtonText } from "../ButtonText"
 import { Button } from "../Button"
-import { CreditCardDisplay } from "../creditCardDisplay"
+import { CreditCardDisplay } from "../CreditCardDisplay"
 
 import { useCart } from "../../hooks/cart"
 import { api } from "../../services/api"
