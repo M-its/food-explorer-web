@@ -40,7 +40,16 @@ Clone o projeto para o local desejado em seu computador.
 git clone https://github.com/jakunzler/foodExplorer-frontend
 ```
 
----
+### ⚙️ Crie um arquivo de configuração
+
+Crie um arquivo `.env` como mostra no arquivo `.env.example` na raiz do projeto e configure as variáveis de ambiente necessárias. Por exemplo:
+
+```dotenv
+AUTH_SECRET=key_jwt
+PORT=3333
+```
+
+Certifique-se de substituir `key_jwt` pela key configurada no backend.
 
 ### 📥 Executando o FrontEnd
 
